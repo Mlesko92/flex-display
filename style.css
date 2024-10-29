@@ -1,0 +1,63 @@
+* {
+    font-family: Roboto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0
+}
+
+header,
+footer {
+    padding: 16px 48px;
+    background-color: #1F2937;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 12px;
+}
+
+header p, a {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+#title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.col {
+    display: flex;
+}
+
+.inspiration {
+    background-color: #e5e7eb;
+    font-size: 36px;
+}
+
+.call-action {
+    background-color: #3882f6
+}
