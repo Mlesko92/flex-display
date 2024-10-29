@@ -14,9 +14,19 @@ footer {
     background-color: #1F2937;
 }
 
+header img {
+    margin-bottom: 32px;
+}
+
+footer p {
+    color: #e5e7eb;
+    text-align: center;
+}
+
 .header-menu {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 64px;
 }
 
 ul {
@@ -27,7 +37,8 @@ ul {
     gap: 12px;
 }
 
-header p, a {
+header p,
+header a {
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -39,8 +50,12 @@ header p, a {
     margin: 0
 }
 
+.text {
+    width: 1000px;
+}
+
 button {
-    padding: 12px 24px;
+    padding: 16px 32px;
     background-color: #3882f6;
     color: white;
     border: none;
@@ -49,15 +64,75 @@ button {
     text-decoration: none;
 }
 
+.banner button {
+    border: 1px solid white;
+    margin-left: 24px;
+}
+
 .col {
     display: flex;
+    justify-content: space-between;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 24px 0;
+}
+
+.carousel div {
+    height: 120px;
+    width: 120px;
+    border: 3px solid #3882f6;
+    border-radius: 12px;
+    margin: 24px 0;
+}
+
+.carousel ul {
+    gap: 32px;
+}
+
+.carousel p {
+    width: 120px;
+    text-align: center;
 }
 
 .inspiration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #e5e7eb;
+}
+
+.inspiration div {
+    margin-bottom: 24px;
+}
+
+.inspiration p {
     font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    width: 800px;
+    margin-bottom: 0;
+}
+
+.author p {
+    margin-top: 0;
+    text-align: end;
 }
 
 .call-action {
-    background-color: #3882f6
+    display: flex;
+    justify-content: center;
+}
+
+.call-action .banner {
+    display: flex;
+    align-items: center;
+    padding: 24px 48px;
+    background-color: #3882f6;
+    border-radius: 12px;
+    color: white;
+    margin: 48px 0;
 }
